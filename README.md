@@ -36,7 +36,7 @@ Satellite imagery offers a scalable, low-cost alternative for poverty estimation
 
 ## Original Paper Summary
 
-**Paper:** Jean, N., Burke, M., Xie, M., Davis, W. M., Lobell, D. B., and Ermon, S. (2016). Combining satellite imagery and machine learning to predict poverty. Science, 353(6301), 790-794.
+**Paper:** Jean, N., Burke, M., Xie, M., Davis, W. M., Lobell, D. B., and Ermon, S. (2016). [Combining satellite imagery and machine learning to predict poverty](https://www.science.org/doi/abs/10.1126/science.aaf7894). Science, 353(6301), 790-794.
 
 ### Key Innovation
 
