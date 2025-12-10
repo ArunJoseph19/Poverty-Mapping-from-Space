@@ -4,6 +4,8 @@ Replication and adaptation of Jean et al. (2016) "Combining satellite imagery an
 
 **[View Poster (PDF)](Arun%20Josephraj%20Coursework%202%20Poster.pdf)**
 
+![Poster](Arun%20Josephraj%20Coursework%202%20Poster.png)
+
 ## Table of Contents
 
 1. [Overview](#overview)
