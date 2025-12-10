@@ -81,11 +81,11 @@ Replication and Adaptation of Jean et al. (2016) | [Your Name] | UCL AI4SD 2024
 
 | Metric | Value |
 |--------|-------|
-| **Nightlight Accuracy** | 86.4% |
-| **Wealth R² (Test)** | [INSERT YOUR VALUE] |
-| **MAE** | [INSERT YOUR VALUE] |
-| **Baseline R² (NL-only)** | ~0.03 |
-| **Improvement** | [X]x over baseline |
+| **Nightlight Accuracy** | 90.7% |
+| **Wealth R² (Test)** | 0.4754 |
+| **MAE** | 0.1574 |
+| **Baseline R² (NL-only)** | 0.0155 |
+| **Improvement** | 30.7x over baseline |
 
 **Error Analysis:**
 - Higher errors in urban areas (complex economic patterns)
@@ -100,13 +100,13 @@ Replication and Adaptation of Jean et al. (2016) | [Your Name] | UCL AI4SD 2024
 |--------|-------------------|-----------------|
 | Context | 5 African countries | India |
 | Images | 500k (training) | 29k |
-| NL Accuracy | ~75% | **86.4%** ✓ |
-| Wealth R² | 0.50-0.55 | [YOUR R²] |
-| Baseline improvement | 12x | [YOUR X]x |
+| NL Accuracy | ~75% | **90.7%** |
+| Wealth R² | 0.50-0.55 | **0.4754** |
+| Baseline improvement | 12x | **30.7x** |
 
-**Within ±5%?** [Yes/No based on your results]
+**Within ±5% of paper?** Yes (0.48 vs 0.50-0.55)
 
-**Key difference:** Higher nightlight accuracy likely due to India's distinct urban/rural contrast
+**Key difference:** Higher nightlight accuracy likely due to India's distinct urban/rural contrast and multi-spectral input
 
 ---
 

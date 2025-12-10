@@ -325,23 +325,24 @@ Creates figures for the poster and analysis.
 | Metric | Value |
 |--------|-------|
 | Training Accuracy | 92.5% |
-| Validation Accuracy | 86.4% |
-| Test Accuracy | ~86% |
+| Validation Accuracy | 90.7% |
 
 ### Phase 2: Wealth Prediction
 
 | Metric | Train | Validation | Test |
 |--------|-------|------------|------|
-| R-squared | [value] | [value] | [value] |
-| MAE | [value] | [value] | [value] |
+| R-squared | 0.4916 | 0.4595 | 0.4754 |
+| MAE | 0.1555 | 0.1590 | 0.1574 |
 
 ### Baseline Comparison
 
 | Method | Test R-squared |
 |--------|----------------|
-| Nightlights only | ~0.03 |
-| All bands mean | ~0.15 |
-| CNN Transfer (ours) | [value] |
+| Nightlights only | 0.0155 |
+| All bands mean | 0.2104 |
+| CNN Transfer (ours) | **0.4754** |
+
+**Improvement: 30.7x over nightlight-only baseline**
 
 ---
 
