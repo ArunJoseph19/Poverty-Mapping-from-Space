@@ -1,6 +1,8 @@
-# Predicting Poverty in India from Satellite Imagery
+# Learning from Nightlights: Predicting Poverty via Satellite Transfer Learning
 
 Replication and adaptation of Jean et al. (2016) "Combining satellite imagery and machine learning to predict poverty" for the Indian context.
+
+**[View Poster (PDF)](Arun%20Josephraj%20Coursework%202%20Poster.pdf)**
 
 ## Table of Contents
 
