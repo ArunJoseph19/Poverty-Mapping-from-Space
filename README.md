@@ -290,11 +290,21 @@ pip install -r requirements.txt
 
 ## Usage
 
+### 0. Download Satellite Data (Google Earth Engine)
+
+Run in Google Colab with Earth Engine credentials:
+
+```bash
+python scripts/download_satellite_data.py
+```
+
+This exports full India composites (8 bands × 3 years) to Google Drive. Monitor progress at https://code.earthengine.google.com/tasks
+
 ### 1. Data Preparation
 
 Download DHS India data from https://dhsprogram.com/ (requires registration).
 
-Download satellite composites via Google Earth Engine or use the provided scripts.
+Place the exported satellite composites from Step 0 in your data folder.
 
 ### 2. Preprocessing
 

@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+*/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (too large for git)
+*.npy
+*.tif
+*.tiff
+*.geotiff
+
+# Model files
+*.pth
+*.joblib
+*.pkl
+
+# Results (regenerable)
+results/
