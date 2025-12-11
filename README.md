@@ -237,26 +237,32 @@ Ridge regression is preferred over neural network regression because:
 
 ```
 poverty-prediction-india/
-|
-|-- src/
-|   |-- crop_and_process.py       # Extract and preprocess satellite imagery
-|   |-- train.py                  # Train CNN and Ridge regression
-|   |-- resume_from_checkpoint.py # Resume training from saved checkpoint
-|   |-- generate_visualizations.py # Create poster figures
-|
-|-- data/
-|   |-- README.md                 # Data download instructions
-|
-|-- results/
-|   |-- figures/                  # Generated plots
-|   |-- models/                   # Saved model weights
-|   |-- metrics/                  # Evaluation results
-|
-|-- docs/
-|   |-- poster_content.md         # Poster text content
-|
-|-- requirements.txt
-|-- README.md
+│
+├── src/                              # Core processing code
+│   ├── crop_and_process.py           # Extract and preprocess satellite imagery
+│   ├── train.py                      # Train CNN and Ridge regression
+│   ├── resume_from_checkpoint.py     # Resume training from checkpoint
+│   ├── generate_visualizations.py    # Create poster figures
+│   ├── generate_cluster_map.py       # Geographic visualization
+│   ├── quintile_comparison.py        # Wealth quintile analysis
+│   └── r2_percentile_plot.py         # R² by percentile plots
+│
+├── scripts/                          # Data acquisition tools
+│   └── download_satellite_data.py    # Google Earth Engine export script
+│
+├── data/
+│   └── README.md                     # Data download instructions
+│
+├── results/
+│   ├── figures/                      # Generated plots
+│   ├── models/                       # Saved model weights
+│   └── metrics/                      # Evaluation results
+│
+├── docs/
+│   └── poster_content.md             # Poster text content
+│
+├── requirements.txt
+└── README.md
 ```
 
 ---
